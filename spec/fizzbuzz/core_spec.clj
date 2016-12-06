@@ -15,4 +15,12 @@
 (describe "fizzbuzz"
 (it "should return fizzbuzz when passed a multiple of 3 and 5"
   (let [result(fizzbuzz 15)]
-  (should= "FizzBuzz!" result))))
+  (should= "FizzBuzz!" result)))
+
+(it "should return fizzbuzz when passed a multiple of 3 and 5"
+  (let [result(fizzbuzz 30)]
+  (should= "FizzBuzz!" result)))
+
+  (it "should return fizzbuzz when passed a multiple of 3 and 5"
+    (let [result(fizzbuzz 90)]
+    (should= "FizzBuzz!" result))))
