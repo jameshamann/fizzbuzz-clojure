@@ -15,4 +15,5 @@
       (str "Buzz!")))
 
 (defn fizzbuzz [number]
-  (and (= (fizz number))(= (buzz number))(str "FizzBuzz!")))
+ (if (nil? (fizz number)) (nil? (buzz number))
+    (str "FizzBuzz!")))
