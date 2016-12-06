@@ -2,6 +2,7 @@
   (:require [speclj.core :refer :all]
             [fizzbuzz-clojure.core :refer :all]))
 
-(describe "a test"
-  (it "FIXME, I fail."
-    (should= 0 0)))
+(describe "fizz"
+  (it "should return fizz when passed a multiple of 3"
+    (let [result(fizz 5)]
+    (should= "Fizz!" result))))
