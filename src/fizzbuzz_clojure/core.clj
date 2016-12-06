@@ -13,3 +13,6 @@
 (defn buzz [number]
     (if (zero? (mod number 5))
       (str "Buzz!")))
+
+(defn fizzbuzz [number]
+  (and (= (fizz number))(= (buzz number))(str "FizzBuzz!")))
