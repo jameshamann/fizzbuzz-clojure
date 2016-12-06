@@ -10,4 +10,13 @@
     "Checking whether a number is divisible by three"
     [number]
     (if (zero? (mod number 3))
-      (println "Fizz!")
+      (println "Fizz!")))
+
+  (defn buzz
+    "Checking whether a number is divisible by five"
+     [number]
+     (if (zero? (mod number 5))
+       (println "Buzz!")))
+
+  (defn fizzbuzz
+    )
