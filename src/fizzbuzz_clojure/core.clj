@@ -5,3 +5,9 @@
   "I don't do a whole lot ... yet."
   [& args]
   (println "Hello, World!"))
+
+  (defn fizz
+    "Checking whether a number is divisible by three"
+    [number]
+    (if (zero? (mod number 3))
+      (println "Fizz!")
