@@ -4,5 +4,5 @@
 
 (describe "fizz"
   (it "should return fizz when passed a multiple of 3"
-    (let [result(fizz 5)]
+    (let [result(fizz 3)]
     (should= "Fizz!" result))))

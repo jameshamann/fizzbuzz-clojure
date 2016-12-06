@@ -6,14 +6,10 @@
   [& args]
   (println "Hello, World!"))
 
-  (defn fizz
-    "Checking whether a number is divisible by three"
-    [number]
+(defn fizz [number]
     (if (zero? (mod number 3))
-      (println "Fizz!")))
+      (str "Fizz!")))
 
-  (defn buzz
-    "Checking whether a number is divisible by five"
-     [number]
-     (if (zero? (mod number 5))
-       (println "Buzz!")))
+(defn buzz [number]
+    (if (zero? (mod number 5))
+      (str "Buzz!")))
