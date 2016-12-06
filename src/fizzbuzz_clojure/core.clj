@@ -18,5 +18,8 @@
      (if (zero? (mod number 5))
        (println "Buzz!")))
 
-  (defn fizzbuzz
-    )
+  ; (defn fizzbuzz
+  ;   "Checking whether a number is divisible by three and five"
+  ;   [number]
+  ;   (if (zero?))
+  ;     (println "FizzBuzz!"))
